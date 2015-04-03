@@ -36,7 +36,7 @@ public class Test {
 	
 	@org.junit.Test
 	public void test() {
-		assertTrue(PhoneNumber.checkValidity(phone) == result);
+		assertTrue("Phone check failed", PhoneNumber.checkValidity(phone) == result);
 	}
 
 }
